@@ -1,0 +1,57 @@
+Initial steps to setup github :
+------------------------------
+
+git init   ----  this will initiaze empty Git repository
+git status  ----  shows any files newly added / need to be committed
+git add filename   ----  add new file in local git
+git add  foldername/   ---- add new folder in local git
+git commit -m  "some comments"  - to commit this file in local git
+git status   ----   at this point show nothing to commit, working tree clean
+
+Now we need to sync this in Github repository: (copy below commands from github repositary)
+----------------------------------------
+git branch -M main
+git remote add origin https://github.com/2024sunitha/WORKSPACE.git
+git push -u origin main
+
+
+Now github asks user id / password or personal access token
+Now all code pushed to gitbu,  go github site repository you see all ur code moved there.
+
+-------------------
+
+To commit and push any one file you worked on:
+--------------------------------------
+1.  Modify a filed and save it 
+2.  git status 
+3.  git add .
+4.  git commit -m "Some comments"
+5.  git push 
+
+
+To remove file and update git repository :
+------------------------------------------
+
+1. git rm filename
+2. git commit -m "some comments"
+3. git status
+4. git push
+
+
+Create New file in Git repository directly
+-----------------------------------------
+1.  Go to github site and create a file you want to in repository
+2.   
+
+
+
+
+
+1. Open git bash terminal (Windows) and terminal for mac
+2. cd /Users/your user name / workspace/
+3. git clone https://github.com/bdd-b9/clt-bdd-ui
+
+
+
+
+ rm -rf .git

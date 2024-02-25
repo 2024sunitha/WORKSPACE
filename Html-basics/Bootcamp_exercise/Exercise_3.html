@@ -1,0 +1,77 @@
+<Form>
+<Lable for="First name">First Name:</Lable><br>
+<Input type="text" Name="First name"><br>
+
+<label For="Last Name">Last Name:</label><br>
+
+<input type="text" Name="Last Name"><br>
+
+<Lable For="Age">Age</Lable><br>
+<input type="number" name="Age"><br>
+
+<label For="Password">Password</label><br>
+<input type="password" name="Password"><br>
+
+<label For="Hobbies">Hobbies</label><br>
+<input type="checkbox" name="hobbies" value="reading">reading<br>
+<input type="checkbox" name="hobbies" value="sports">sports<br>
+<input type="checkbox" name="hobbies" value="cooking">cooking<br>
+
+<label For="Gender">Gender</label><br>
+<input type="radio" name="gender" value="M"> Male<br>
+<input type="radio" name="gender" value="F"> Female<br>
+<label><command></label><br>
+
+<textarea name="Commends" id="Commends" cols="30" rows="10"></textarea><br>
+<select name="Cartype">.
+<option value="volvo">volvo</option>
+<option value="saab">saab</option>
+<option value="saab">Toyoto</option>
+<opyion value="saab">Honda</opyion>
+<input type="submit" ID="Register-Button" value="Register"><br>
+
+
+
+
+
+<!DOCTYPE html>
+<table> <!---->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<script>
+  function submitData() {
+ let name = document.getElementById('name').value;
+ let email = document.getElementById('email').value;
+ const payload= {
+   name: name ,
+   emailAddress: email
+ }
+  alert(JSON.stringfy(payload));
+  const host = 'http://myserver.com';
+  const path = "/api/v1/user";
+  }
+  </script>
+</head>
+<body>
+<Form>
+<Lable for="name">Name</Lable>
+<Input type="text" id="name"value=""placeHolder="please enter your name"><br><br><br>
+
+<label For="Email">Email</label>
+<input type="text" id="Email"value=""placeHolder="please enter a valid email"><br><br><br><br><br>
+
+<button type="Submit"onClick="submitData()">submit</button>
+
+
+
+
+
+
+
+
+
+

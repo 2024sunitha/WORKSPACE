@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="as-a-smsllbusiness-customer,-i-want-to-be-able-to-navigate-to-landing-page-so-that-i-can-login-the-portal;customer-is-displayed-with-smallbusiness-login-page" tests="2" failures="0" skipped="0">
+        <properties>
+            <property name="@smallbusiness" value="true">
+            </property>
+            <property name="@smallbusinesslogin" value="true">
+            </property>
+            <property name="URI" value="C:/BDDautomation/Workspaces/smart_submission/features/smallbusiness.feature">
+            </property>
+        </properties>
+        <testcase name="Given I am on the smallbusiness portal" classname="as-a-smsllbusiness-customer,-i-want-to-be-able-to-navigate-to-landing-page-so-that-i-can-login-the-portal;customer-is-displayed-with-smallbusiness-login-page" time="9.1986053">
+        </testcase>
+        <testcase name="When I click on LoginButton" classname="as-a-smsllbusiness-customer,-i-want-to-be-able-to-navigate-to-landing-page-so-that-i-can-login-the-portal;customer-is-displayed-with-smallbusiness-login-page" time="2.1049164">
+        </testcase>
+    </testsuite>
+</testsuites>

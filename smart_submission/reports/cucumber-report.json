@@ -1,0 +1,69 @@
+[
+  {
+    "elements": [
+      {
+        "id": "as-a-smsllbusiness-customer,-i-want-to-be-able-to-navigate-to-landing-page-so-that-i-can-login-the-portal;customer-is-displayed-with-smallbusiness-login-page",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Customer is displayed with smallbusiness login page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am on the smallbusiness portal",
+            "result": {
+              "status": "passed",
+              "duration": 9198605300
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\BDDautomation\\Workspaces\\smart_submission\\step-definitions\\smartbusiness._steps.js:3"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on LoginButton",
+            "result": {
+              "status": "passed",
+              "duration": 2104916400
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\BDDautomation\\Workspaces\\smart_submission\\step-definitions\\smartbusiness._steps.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 682122700
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\BDDautomation\\Workspaces\\smart_submission\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smallbusiness",
+            "line": 9
+          },
+          {
+            "name": "@smallbusinesslogin",
+            "line": 9
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "as-a-smsllbusiness-customer,-i-want-to-be-able-to-navigate-to-landing-page-so-that-i-can-login-the-portal",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "As a smsllbusiness customer, I want to be able to navigate to landing page so that I can login the portal",
+    "tags": [],
+    "uri": "C:/BDDautomation/Workspaces/smart_submission/features/smallbusiness.feature"
+  }
+]

@@ -1,0 +1,27 @@
+{
+    "name": "sunitha",
+    "email": "sunitha@gmail.com",
+    "age": 10,
+    "address":{
+        "city": "New York",
+        "state": "NY"
+    },
+    "hobbies":[
+        "reading",
+        "swimming"
+    ],
+    "isStudent": true
+}
+
+
+
+//create a simple json file with details about the country
+
+{
+    "country":{
+     "name": "india",
+     "lAnguage": "multiple",
+     "population": "800000000"
+     "states":" karnataka","tamil Nadu","kerala"
+},
+}
